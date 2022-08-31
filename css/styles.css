@@ -44,7 +44,23 @@ h2 {
 
 body {
     font-family: 'Rubik', sans-serif;
-    color: var(--color-body);
+    color: var(--color-black);
     font-size: 1.6rem;
     line-height: 1.5;
+    font-weight: 300;
+}
+
+.list {
+    color:var(--color-white);
+    text-transform: uppercase;
+    list-style: none;
+    padding-left: 0;
+
+}
+.list__item{
+    margin-bottom: 1.1rem;
+}
+
+.btn{
+    
 }
