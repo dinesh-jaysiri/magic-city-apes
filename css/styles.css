@@ -1,0 +1,50 @@
+:root{
+    --color-pink:#ef3dad;
+    --color-yellow:#ffd865;
+    --color-white:#fff;
+    --color-purple:#36144d;
+    --color-black:#000;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--color-white);
+    margin-bottom: 3rem;
+    line-height: 1.1;
+}
+
+.heading--black{
+    color: var(--color-black);
+}
+
+.heading--purple {
+    color: var(--color-purple);
+}
+
+
+h1 {
+    font-size: 10rem;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    color: var(--color-body);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
